@@ -1,0 +1,4 @@
+contact_links:
+  - name: A security problem
+    url: https://github.com/pilked/pilk-releases/security/advisories/new
+    about: Please report it privately here, or to security@pilk.dev, not in a public issue.
