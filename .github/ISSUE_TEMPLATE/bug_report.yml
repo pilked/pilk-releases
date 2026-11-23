@@ -1,4 +1,3 @@
-blank_issues_enabled: false
 name: Something didn't work
 description: Tell us about a bug in PILK. "This was confusing" counts too.
 labels: [bug]
