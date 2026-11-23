@@ -1,0 +1,50 @@
+name: Something didn't work
+description: Tell us about a bug in PILK. "This was confusing" counts too.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you. Please don't paste a password, a sign-in code or anything from your Minecraft account: PILK never needs them.
+  - type: input
+    id: version
+    attributes:
+      label: PILK's version
+      description: In PILK, Settings, About.
+      placeholder: 0.1.0
+    validations:
+      required: true
+  - type: dropdown
+    id: launcher
+    attributes:
+      label: Which Minecraft Launcher you have
+      options:
+        - The one from the Microsoft Store
+        - The one downloaded from minecraft.net
+        - I don't know
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Windows
+      description: Settings, System, About, "Windows specifications".
+      placeholder: Windows 11 Home, 25H2
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Copy details
+      description: If PILK showed an error, press its "Copy details" button and paste here. It takes your account and your folders out.
+      render: text
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: A screenshot
+      description: If it's about how something looks. Drag it here.
