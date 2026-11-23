@@ -1,3 +1,4 @@
+blank_issues_enabled: false
 contact_links:
   - name: A security problem
     url: https://github.com/pilked/pilk-releases/security/advisories/new
